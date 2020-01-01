@@ -38,8 +38,8 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="body">
-                    <div>
+                <div className="gallery">
+                    <div className = "gallery-box">
                         {this.state.images.map((pic) => (
                             <div className="card" key={pic.id}>
                                 <img className="pic" src={pic.urls.regular} alt="logo" />

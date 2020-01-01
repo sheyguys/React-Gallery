@@ -10,20 +10,11 @@
     text-align: center;
 }
 
-.page {
-    height: 100%;
-    width: 100%;
-}
-
-.content {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 5% 95%;
-}
-
 .i-con-app-header {
     background-color: #2D3B45;
+    position: fixed;
+    height: 100vh;
+    z-index: 1;
 }
 
 .right-content {
